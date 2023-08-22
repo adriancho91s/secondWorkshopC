@@ -30,7 +30,7 @@ int main () {
 
     //Validación de que esté en el rango
     if ( !(dia >= 1 && dia <= 7) ) {
-        printf("El número ingresado no está en el rango");
+        printf("El número ingresado \nno está en el rango");
         return 0;// Finaliza el programa
     } 
 
