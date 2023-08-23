@@ -40,7 +40,7 @@ int main () {
     scanf("%d", &tiempo);
 
     // Calculo de calorías
-    strcmp(actividad, "dormir") == 0 ? printf("Dormir por %i minutos hizo que consumieras %.2f calorías", tiempo, calculo) : printf("Estar sentado por %i minutos hizo que consumieras %.2f calorías", tiempo, calculo);
+    strcmp(actividad, "dormir") == 0 ? printf("Dormir por %i minutos hizo que consumieras %.2f calorías", tiempo, (calculo = tiempo * 1.08)) : printf("Estar sentado por %i minutos hizo que consumieras %.2f calorías", tiempo, (calculo = tiempo * 1.66));
 
     return 0;
 }
