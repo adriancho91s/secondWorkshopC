@@ -28,7 +28,7 @@ int main () {
     scanf("%d", &numero);
 
     // Validación de si el número es par o no
-    numero % 2 == 0 ? printf("El número es par") : printf("El número es impar");
+    numero % 2 >= 1 ? printf("El número es impar") : printf("El número es par");
 
     return 0;
 }
