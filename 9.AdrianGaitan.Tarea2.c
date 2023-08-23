@@ -31,5 +31,6 @@ int main () {
     scanf("%d", &capital);
 
     // Validación de si es rentable invertir o no
-    interes * (capital / 100) > 7000 ? printf("\x1b[32mINVIERTA SU SALDO SERÁ %.2f\x1b[0m", saldo= (capital * (interes/100) + capital) ) : printf("\x1b[31mNo es rentable invertir\x1b[0m");
+    interes * (capital / 100) > 7000 ? printf("\x1b[32mINVIERTA SU SALDO SERÁ %.2f\x1b[0m", saldo = (interes * (capital / 100) + capital) ) : printf("\x1b[31mNo es rentable invertir\x1b[0m");
+
 }
