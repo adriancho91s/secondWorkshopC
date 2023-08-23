@@ -11,7 +11,7 @@
 - Programa de Ingeniería de Sistemas y Computación
 - Este programa esta diseñado para una tienda de camisas, toma como valor de entrada
 - dos números, uno de ellos corresponde a la cantidad de camisas que va a comprar el cliente y el
-- segundo de ellos corresponde al precio de cada camisa. Si el cliente compra 3 o más camisas, obtiene un descuento del 30% sobre el total de la compra
+- segundo de ellos corresponde al precio de cada camisa. Si el cliente compra 3 o más camisas, obtiene un descuento del 20% sobre el total de la compra
 - si compra menos de 3 camisas, el descuento es del 10% sobre el total de la compra;
 - Entrada: dos números
 - Salida: se imprime en pantalla el valor total de la compra

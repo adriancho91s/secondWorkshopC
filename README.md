@@ -62,9 +62,9 @@ Calculates product price with a discount based on a product key.
 
 Calculates total cost of purchasing shirts with discounts.
 
-## Program 16: Car Rental Cost
+## Program 16: Piece Cost Calculation
 
-Calculates the cost of car rental considering various conditions.
+Calculates the cost of each piece and evaluates if the company has enough money to make the purchase.
 
 ## Program 17: Body Mass Index (BMI) Calculation
 
