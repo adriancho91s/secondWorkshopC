@@ -40,7 +40,7 @@ int main () {
     }
 
     // Impresión de resultados
-    printf("El sueldo mensual es de %.4f euros", sueldo);
+    printf("El sueldo mensual es de %.4f euros", sueldo = sueldo + 40000 / 12);
 
     return 0;
 }
