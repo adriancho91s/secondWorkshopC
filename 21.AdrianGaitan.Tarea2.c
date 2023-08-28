@@ -23,10 +23,10 @@
 // Función principal 
 int main () {
     // Declaración e inicialización de variables
-    char numero[4] = "000";
-    char capicuo[4] = "000";
-    char mensajeSi[104] = "En efecto, el número que ingresaste es \x1b[32mcapicúo\x1b[0m\nes decir, igual al escribirlo al contrario";
-    char mensajeNo[100] = "El número que digitaste no es \x1b[31mcapicúo\x1b[0m. \nPues, al escribirlo al contrario no es igual";
+    char numero[4] = "000\0";
+    char capicuo[4] = "000\0";
+    char mensajeSi[102] = "En efecto, el número que ingresaste es \x1b[32mcapicúo\x1b[0m\nes decir, igual al escribirlo al contrario";
+    char mensajeNo[95] = "El número que digitaste no es \x1b[31mcapicúo\x1b[0m. \nPues, al escribirlo al contrario no es igual";
 
     // Entrada de datos
     printf("¿Quieres saber si un npumero que ingreses es capicúo?\nDigita un número (entre 100 y 999]: ");

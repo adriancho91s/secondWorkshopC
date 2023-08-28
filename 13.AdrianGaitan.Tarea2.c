@@ -25,7 +25,7 @@
 int main () {
     // Declaración e inicialización de variables
     int calorias = 0, tiempo = 0; // Variables que almacenan el número de calorías y el tiempo de actividad
-    char actividad[10]; // Variable que almacena la actividad
+    char actividad[7] = "1234567"; // Variable que almacena la actividad
     float calculo = 0; // Variable que almacena el resultado del calculo
 
     // Mensaje de bienvenida y solicitud de datos

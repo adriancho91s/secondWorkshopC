@@ -22,7 +22,7 @@
 // Función principal
 int main () {
     // Declaración e inicialización de variables 
-    char nombre[20]; // Variable que almacena el nombre del artículo
+    char nombre[20] = "01234567890123456789"; // Variable que almacena el nombre del artículo
     int precio = 0, clave = 0; // Variables que almacenan el precio y la clave del artículo
     float precioFinal = 0; // Variable que almacena el precio final del artículo
 

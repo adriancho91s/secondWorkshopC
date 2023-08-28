@@ -22,7 +22,7 @@
 int main () {
     // Declaración e inicialización de variables
     int piezas = 0, costo = 0; // Variables que almacenan el número de piezas y el precio de cada pieza
-    float invertido = 0, prestamoBanco, creditoFab = 0, interesFab = 0;
+    float invertido = 0, prestamoBanco = 0, creditoFab = 0, interesFab = 0;
 
     // Mensaje de bienvenida y solicitud de datos
     printf("Este programa te ayudará a calcular el monto de tu inversión da la cantidad prestada\npor el banco, el valor del crédito por el fabricante y también el interés cobrado por el fabricante\n");

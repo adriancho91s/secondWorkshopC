@@ -21,7 +21,7 @@
 // Función principal
 int main () {
     // Declaración e inicialización de variables 
-    char placa[7]; // Variable que almacena la placa del vehículo
+    char placa[7] = "1234567"; // Variable que almacena la placa del vehículo
     int horas = 0, minutos = 0; // Variables que almacenan el número de horas y minutos que estuvo el vehículo en el parqueadero 
     float pago = 0; // Variable que almacena el valor a pagar
 
@@ -49,5 +49,5 @@ int main () {
     }
 
     // Impresión de resultados
-    printf("El valor a pagar es: \x1b[32m%.2f\x1b[0m", pago);
+    printf("El valor a pagar para el vehiculo de placas (%s)es: \x1b[32m%.2f\x1b[0m", placa, pago);
 }
